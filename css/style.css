@@ -1,0 +1,61 @@
+#first-header{
+    margin-top: 40px;
+    margin-bottom: 0;
+
+}
+
+
+
+#logo{
+
+width:200px;
+height:150px;
+transform: translate(1124px,155px);
+background-color: black;
+
+}
+
+#first-header:hover{
+    margin-top: 40px;
+    margin-bottom: 0;
+    
+}
+
+
+.navbar-brand{
+    color:#fff;
+}
+
+.tab{
+    display:inline-block;
+    margin-left:20px;
+ 
+}
+
+#showMovies img ,#movie img{
+    width:100%;
+    height:100%;
+}
+
+#list-font{
+    color:#fff;
+}
+
+.btn-primary:hover{
+    background-color: rgb(94, 224, 42);
+}
+.btn-dark:hover{
+    background-color: rgb(94, 224, 42);
+}
+
+
+@media(min-width:960px){
+#showMovies .col-md-3 .well{
+    height: 450px;
+}
+
+#showMovies .col-md-3 img{
+    height:300px;
+}
+
+}
