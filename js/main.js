@@ -92,7 +92,7 @@ function getMovie(){
             </div>
             <br>
             <div class="row">
-                <h3>Plot</h3>
+                <h2>Plot</h2>
             </div>
             <div class="row">
                  ${movie.Plot}
@@ -102,7 +102,7 @@ function getMovie(){
             <div class="row">
             <a class="btn btn-primary " id="list-font" target="_blank" href="http://imdb.com/title/${movie.imdbID}" >View IMDB</a>
             
-            <a class="btn btn-dark tab" id="list-font" href="index.html" >Back To Search</a>
+            <a class="btn btn-uk tab" id="list-font" href="index.html" >Back To Search</a>
             </div>
 
             
