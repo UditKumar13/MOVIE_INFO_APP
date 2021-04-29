@@ -59,7 +59,7 @@ function getMovie(){
     let movieId =sessionStorage.getItem('movieId');
     // now we have to make a similar axios request to get this specific movie detail 
     // to show on the movie.html page 
-    axios.get('http://www.omdbapi.com/?i='+movieId+'&apikey=bcb7b791')
+    axios.get('https://www.omdbapi.com/?i='+movieId+'&apikey=bcb7b791')
     .then((response)=>{
         console.log(response);
         let movie = response.data;
