@@ -49,7 +49,7 @@ function getMovies(MovieText){
 function movieSelected(id){
 
     sessionStorage.setItem('movieId',id);
-    window.location='movie.html';
+    window.location='./movie.html';
     // to run it in movie.html 
     return false;
     
