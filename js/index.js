@@ -10,7 +10,7 @@ e.preventDefault();
 function getMovies(MovieText){
     
     // My first api call -_- feeling happy :) 
-    axios.get('http://www.omdbapi.com/?s='+MovieText+'&apikey=bcb7b791')
+    axios.get('https://www.omdbapi.com/?s='+MovieText+'&apikey=bcb7b791')
     .then((response)=>{
         console.log(response);
         let movies = response.data.Search;
